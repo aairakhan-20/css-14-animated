@@ -1,0 +1,238 @@
+ * {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+nav {
+    background-color: #eadaf0;
+    width: 100%;
+    height: 15%;
+    box-shadow: 0 0 25px rgb(182, 179, 179);
+    padding: 2%;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+}
+
+ul {
+    display: flex;
+    gap: 17%;
+    margin-right: 15%;
+    margin-top: 1.5%;
+}
+
+li {
+    list-style-type: none;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    width: 60%;
+}
+
+li:hover {
+    color: rgb(230, 164, 22);
+    cursor: pointer;
+}
+
+li:hover::after {
+    content: "";
+    position: absolute;
+    bottom: -3px;
+    left: 1px;
+    transition: 1s ease-in-out;
+    background-color: rgb(230, 164, 22);
+    width: 100%;
+    height: 4px;
+}
+
+.main {
+    background-image: url(images/david-moum-nbqlWhOVu6k-unsplash.jpg);
+    background-size: cover;
+ background-repeat: no-repeat;
+ background-position: center;
+ object-fit: cover;
+ box-sizing: borderbox; 
+ padding: 5%;
+ z-index: -2;
+ height: 500px;
+ padding-top: 15%;
+ 
+}
+
+h1 {
+    font-size: 55px;
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+span {
+    color: rgb(24, 24, 70);
+    background-color: rgb(230, 164, 22);
+    padding: 0.3%;
+}
+
+.main > p {
+    margin-left: 3%;
+    margin-top: 3%;
+    color: white;
+    text-align: center;
+}
+
+.section2 {
+    width: 100%;
+    height: 70%;
+}
+
+.shorttext {
+    margin-top: 4%;
+    text-align: center;
+}
+
+h2 {
+    margin-top: 2%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+}
+
+.sections {
+    display: flex;
+    justify-content: center;
+}
+
+.sec {
+    width: 20%;
+    height: 45%;
+    border: 1px solid orangered;
+    border-radius: 20px;
+    padding: 3%;
+    margin-left: 2%;
+    margin-top: 4%;
+    cursor: pointer;
+    margin-bottom: 3%;
+}
+
+p {
+    padding-top: 1%;
+    color: grey;
+}
+
+.sec:hover {
+    border: none;
+    box-shadow: 0 0 30px rgb(216, 213, 213);
+    transition: 0.4s ease-in-out;
+}
+
+.images {
+    display: flex;
+    gap: 3%;
+    align-items: center;
+    margin-top: 3%;
+    margin-left: 20%;
+    margin-bottom: 3%;
+}
+
+.images > .img1 {
+    border: 1px solid #fff;
+    border-radius: 30px;
+    width: 35%;
+    height: 40%;
+    background-image: url(images/building.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: fill;
+
+}
+
+.img1 > h5{
+    margin-top: 20%;
+    width: 75%;
+    padding: 4%;
+    padding-left: 4%;
+    color: #fff;
+    font-size: 20px;
+    visibility: hidden;
+}
+
+.img1:hover h5 {
+    cursor: pointer;
+    visibility: visible;
+    transition: 1s ease-in-out;
+    backdrop-filter: blur(25px);
+}
+
+.images > .img2 {
+    border: 2px solid #000;
+    border-radius: 30px;
+    width: 35%;
+    height: 45%;
+    background-image: url(images/building\ 1.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: fill;
+
+}
+
+ .img2 > h5{
+    margin-top: 20%;
+    width: 75%;
+    padding: 4%;
+    padding-left: 4%;
+    color: #000;
+    font-size: 20px;
+    visibility: hidden;
+}
+
+.img2:hover h5 {
+    cursor: pointer;
+    visibility: visible;
+    transition: 1s ease-in-out;
+    backdrop-filter: blur(25px);
+}
+
+.lowest {
+    width: 100%;
+    height: 60%;
+    margin-top: 5%;
+    background-color: rgb(204, 201, 201);
+    padding: 3%;
+    display: flex;
+}
+
+.lower1, .lower2 {
+    margin-left: 10%;
+}
+
+.lowerlist {
+    padding-left: 3%;
+    list-style-type: none;
+    font-family: cooper;
+    font-size: 20px;
+}
+
+h3 {
+    font-size: 30px;
+    color: rgb(74, 86, 104);
+    font-family: Cooper;
+}
+
+.lower1 > .lowerlist {
+    color: rgb(74, 86, 104);
+    text-decoration: none;
+}
+
+.lower2 > .lowerlist {
+    color: rgb(74, 86, 104);
+}
+
+.icons {
+    margin-top: 10%;
+    display: flex;
+    gap: 10%;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.icons > i:hover {
+    color: rgb(230, 164, 22);
+}    
